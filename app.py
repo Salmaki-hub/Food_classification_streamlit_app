@@ -4,11 +4,11 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 
-url = "https://github.com/streamlit/streamlit"
+url = "https://github.com/Salmaki-hub/Food_classification_streamlit_app"
 st.set_page_config(page_title='Food Identification Tool', initial_sidebar_state = 'auto')
 st.title("Food Identification Tool")
 st.write("A machine learning powered system that tells accurately the food name. Check out code here [link](%s)." % url)
-
+st.write("The system could only detect 17 food classes.")
 
 
 hide_streamlit_style = """
