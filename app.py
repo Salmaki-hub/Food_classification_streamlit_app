@@ -22,7 +22,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 file = st.sidebar.file_uploader("Upload Image", type=['jpeg','jpg','png'])
 
 
-#cat = ['apple pie',
+#cat101 = ['apple pie',
 #         'baby back ribs',
 #         'baklava',
 #         'beef carpaccio',
